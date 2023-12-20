@@ -1,0 +1,109 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MainContainer {
+  padding: 16px;
+}
+
+.NoteContent {
+  padding: 16px;
+}
+
+.baseline-example {
+  vertical-align: baseline;
+}
+
+.Modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.Modal-content {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+
+.btn-outline-primary.active,
+.btn-outline-primary:active,
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-primary {
+  color: #007bff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #007bff;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-info {
+  color: #fff;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.Overlay {
+  background-color: rgba(255, 255, 255, 1); /* Полная непрозрачность фона */
+}
+
+@media (max-width: 768px) {
+  .cont {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+}
+
