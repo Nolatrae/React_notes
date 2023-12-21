@@ -64,6 +64,7 @@ const AddNoteModal = ({ isOpen, onRequestClose, onSave }) => {
         <div className="form-group">
           <label htmlFor="title">Название:</label>
           <input
+            required
             type="text"
             className="form-control"
             id="title"
@@ -74,6 +75,7 @@ const AddNoteModal = ({ isOpen, onRequestClose, onSave }) => {
         <div className="form-group">
           <label htmlFor="content">Содержание:</label>
           <textarea
+            required
             className="form-control"
             id="content"
             value={newNote.content}
